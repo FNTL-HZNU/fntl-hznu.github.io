@@ -1,0 +1,9 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>我的全新 Hugo 网站</title>
+        <link>https://fntl-hznu.github.io/</link>
+        <description>我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Jul 2024 18:26:56 -0700</lastBuildDate>
+            <atom:link href="https://fntl-hznu.github.io/index.xml" rel="self" type="application/rss+xml" />
+        </channel>
+</rss>

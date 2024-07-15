@@ -3,7 +3,7 @@
         <title>My New Hugo Site</title>
         <link>http://localhost:1313/</link>
         <description>FNTL</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jul 2024 19:38:46 &#43;0600</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Jul 2024 18:26:56 -0700</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>

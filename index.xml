@@ -3,7 +3,28 @@
         <title>My New Hugo Site</title>
         <link>http://localhost:1313/</link>
         <description>FNTL</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 08 Jul 2024 18:26:56 -0700</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jul 2024 19:38:46 &#43;0600</lastBuildDate>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
+        <item>
+    <title>Third</title>
+    <link>http://localhost:1313/third_post/</link>
+    <pubDate>Tue, 09 Jul 2024 19:38:46 &#43;0600</pubDate><author>
+        <name>xxxx</name>
+    </author><guid>http://localhost:1313/third_post/</guid>
+    <description><![CDATA[你好，世界。]]></description>
+</item><item>
+    <title>Second</title>
+    <link>http://localhost:1313/second_post/</link>
+    <pubDate>Tue, 09 Jul 2024 19:24:57 &#43;0600</pubDate><author>
+        <name>xxxx</name>
+    </author><guid>http://localhost:1313/second_post/</guid>
+    <description><![CDATA[asdasd asd]]></description>
+</item><item>
+    <title>First_post</title>
+    <link>http://localhost:1313/first_post/</link>
+    <pubDate>Mon, 08 Jul 2024 18:26:56 -0700</pubDate><author>
+        <name>xxxx</name>
+    </author><guid>http://localhost:1313/first_post/</guid>
+    <description><![CDATA[title: &ldquo;我的第一篇文章&rdquo; subtitle: &quot;&quot; date: 2020-03-04T15:58:26+08:00 lastmod: 2020-03-04T15:58:26+08:00 draft: true authors: [] description: &quot;&quot; license: &quot;&quot; images: [] tags: [] categories: [] series: [] series_weight: 1 seriesNavigation: true featuredImage: &quot;&quot; featuredImagePreview: &quot;&quot; hiddenFromHomePage: false hiddenFromSearch: false twemoji: false lightgallery: true ruby: true fraction: true linkToMarkdown: true linkToSource: false linkToEdit: false]]></description>
+</item></channel>
 </rss>

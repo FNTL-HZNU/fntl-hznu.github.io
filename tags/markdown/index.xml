@@ -4,14 +4,12 @@
         <link>http://localhost:1313/tags/markdown/</link>
         <description>Markdown - 标签 - 未来网络技术实验室</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yongliu@hznu.edu.cn (FNTL)</managingEditor>
-            <webMaster>yongliu@hznu.edu.cn (FNTL)</webMaster><lastBuildDate>Mon, 08 Jul 2024 18:26:56 &#43;0700</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown/" rel="self" type="application/rss+xml" /><item>
-    <title>BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things. IEEE Internet of Things Journal, 2024.</title>
-    <link>http://localhost:1313/first_post/</link>
-    <pubDate>Mon, 08 Jul 2024 18:26:56 &#43;0700</pubDate><author>
+            <webMaster>yongliu@hznu.edu.cn (FNTL)</webMaster><lastBuildDate>Tue, 09 Jul 2024 19:24:57 &#43;0600</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown/" rel="self" type="application/rss+xml" /><item>
+    <title>Second</title>
+    <link>http://localhost:1313/second_post/</link>
+    <pubDate>Tue, 09 Jul 2024 19:24:57 &#43;0600</pubDate><author>
         <name>FNTL</name>
-    </author><guid>http://localhost:1313/first_post/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="featured-image.webp" referrerpolicy="no-referrer">
-            </div>了解如何在 DoIt 主题中快速, 直观地创建和组织内容.]]></description>
+    </author><guid>http://localhost:1313/second_post/</guid>
+    <description><![CDATA[asdasd asd]]></description>
 </item></channel>
 </rss>

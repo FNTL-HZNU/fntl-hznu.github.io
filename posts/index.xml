@@ -1,28 +1,38 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>所有文章 - My New Hugo Site</title>
+        <title>所有文章 - 未来网络技术实验室</title>
         <link>http://localhost:1313/posts/</link>
-        <description>所有文章 | My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 09 Jul 2024 19:38:46 &#43;0600</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <description>所有文章 | 未来网络技术实验室</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yongliu@hznu.edu.cn (FNTL)</managingEditor>
+            <webMaster>yongliu@hznu.edu.cn (FNTL)</webMaster><lastBuildDate>Tue, 16 Jul 2024 12:23:35 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things. IEEE Internet of Things Journal, 2024.</title>
+    <link>http://localhost:1313/first_post/</link>
+    <pubDate>Mon, 08 Jul 2024 18:26:56 &#43;0700</pubDate><author>
+        <name>FNTL</name>
+    </author><guid>http://localhost:1313/first_post/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="featured-image.webp" referrerpolicy="no-referrer">
+            </div>了解如何在 DoIt 主题中快速, 直观地创建和组织内容.]]></description>
+</item><item>
+    <title>Forth</title>
+    <link>http://localhost:1313/forth/</link>
+    <pubDate>Tue, 16 Jul 2024 12:23:35 &#43;0800</pubDate><author>
+        <name>FNTL</name>
+    </author><guid>http://localhost:1313/forth/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Third</title>
     <link>http://localhost:1313/third_post/</link>
     <pubDate>Tue, 09 Jul 2024 19:38:46 &#43;0600</pubDate><author>
-        <name>xxxx</name>
+        <name>FNTL</name>
     </author><guid>http://localhost:1313/third_post/</guid>
     <description><![CDATA[你好，世界。]]></description>
 </item><item>
     <title>Second</title>
     <link>http://localhost:1313/second_post/</link>
     <pubDate>Tue, 09 Jul 2024 19:24:57 &#43;0600</pubDate><author>
-        <name>xxxx</name>
+        <name>FNTL</name>
     </author><guid>http://localhost:1313/second_post/</guid>
     <description><![CDATA[asdasd asd]]></description>
-</item><item>
-    <title>First_post</title>
-    <link>http://localhost:1313/first_post/</link>
-    <pubDate>Mon, 08 Jul 2024 18:26:56 -0700</pubDate><author>
-        <name>xxxx</name>
-    </author><guid>http://localhost:1313/first_post/</guid>
-    <description><![CDATA[title: &ldquo;我的第一篇文章&rdquo; subtitle: &quot;&quot; date: 2020-03-04T15:58:26+08:00 lastmod: 2020-03-04T15:58:26+08:00 draft: true authors: [] description: &quot;&quot; license: &quot;&quot; images: [] tags: [] categories: [] series: [] series_weight: 1 seriesNavigation: true featuredImage: &quot;&quot; featuredImagePreview: &quot;&quot; hiddenFromHomePage: false hiddenFromSearch: false twemoji: false lightgallery: true ruby: true fraction: true linkToMarkdown: true linkToSource: false linkToEdit: false]]></description>
 </item></channel>
 </rss>

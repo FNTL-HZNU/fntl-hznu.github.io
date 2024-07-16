@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Reference - 分类 - My New Hugo Site</title>
+        <link>http://localhost:1313/categories/reference/</link>
+        <description>Reference - 分类 - My New Hugo Site</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 16 Jul 2024 12:23:35 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/categories/reference/" rel="self" type="application/rss+xml" /><item>
+    <title>Forth</title>
+    <link>http://localhost:1313/forth/</link>
+    <pubDate>Tue, 16 Jul 2024 12:23:35 &#43;0800</pubDate><author>
+        <name>xxxx</name>
+    </author><guid>http://localhost:1313/forth/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

@@ -18,7 +18,7 @@
 
 
 
-<span style="font-size:22px;">**链 接**</span> <span style="margin-left:20px; font-size:14px;">     https://dl.acm.org/doi/10.1145/3600061.3603124</span>
+<span style="font-size:22px;">**链 接**</span> <span style="margin-left:20px; font-size:14px;">     https://ieeexplore.ieee.org/abstract/document/10505918</span>
 
 <span style="font-size:20px;">**出版物**</span> <span style="font-size:14px;">     *IEEE Internet of Things Journal*, _**IoTJ**_ 2024</span>
 

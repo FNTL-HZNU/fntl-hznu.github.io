@@ -5,12 +5,19 @@
         <description>交换机迁移 - 标签 - 未来网络技术实验室</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yongliu@hznu.edu.cn (FNTL)</managingEditor>
             <webMaster>yongliu@hznu.edu.cn (FNTL)</webMaster><lastBuildDate>Mon, 08 Jul 2024 18:26:56 &#43;0700</lastBuildDate><atom:link href="http://localhost:1313/tags/%E4%BA%A4%E6%8D%A2%E6%9C%BA%E8%BF%81%E7%A7%BB/" rel="self" type="application/rss+xml" /><item>
-    <title>BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things.</title>
+    <title>BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things</title>
     <link>http://localhost:1313/bsm-lp/</link>
     <pubDate>Mon, 08 Jul 2024 18:26:56 &#43;0700</pubDate><author>
         <name>FNTL</name>
     </author><guid>http://localhost:1313/bsm-lp/</guid>
     <description><![CDATA[摘要The Software-Defined Internet of Things (SD-IoT) utilizes the centralized control and programmability of SoftwareDefined Networking (SDN) to enhance network performance optimization and efficient resource utilization in IoT. As the network scale expands, the multiple-controller architecture becomes crucial for ensuring reliability and scalability in SD-IoT. However, the dynamic changes in traffic patterns often lead to imbalanced loads among controllers. Existing solutions primarily focus on switch migration schemes,]]></description>
+</item><item>
+    <title>CASM: A Cost-Aware Switch Migration Strategy for Elastic Optical Inter-Datacenter Networks</title>
+    <link>http://localhost:1313/casm/</link>
+    <pubDate>Fri, 06 May 2022 18:26:56 &#43;0700</pubDate><author>
+        <name>FNTL</name>
+    </author><guid>http://localhost:1313/casm/</guid>
+    <description><![CDATA[摘要In inter-datacenter elastic optical networks, multi-controller deployment is adopted to improve the stability and scalability of the control plane. As the network scale increases, the traditional multi-controller deployment scheme ignores the dynamic characteristics of traffic, resulting in unbalanced load among multiple controllers. In response to this problem, the existing switch migration mechanism is proposed to achieve balanced distribution of control loads. However, most of the existing research]]></description>
 </item><item>
     <title>Highly-Efficient Switch Migration for Controller Load Balancing in Elastic Optical Inter-Datacenter Networks</title>
     <link>http://localhost:1313/hesm/</link>

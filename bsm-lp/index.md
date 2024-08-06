@@ -1,7 +1,7 @@
-# BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things.
+# BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things
 
 
-{{< figure src="/images/bsm-lp.webp"  height="auto" width="500px">}}
+{{< figure src="/images/bsm-lp.webp"  height="auto" width="450px">}}
 
 ### 摘要
 

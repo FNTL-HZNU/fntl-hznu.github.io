@@ -18,10 +18,10 @@
     <meta property="article:tag" content="负载预测">
     <meta property="article:tag" content="SDN">
     <meta property="article:tag" content="负载均衡">
-    <meta property="og:image" content="http://localhost:1313/images/Flow%20optimization%20strategies.webp">
+    <meta property="og:image" content="http://localhost:1313/">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/images/Flow%20optimization%20strategies.webp">
+  <meta name="twitter:image" content="http://localhost:1313/">
   <meta name="twitter:title" content="Attention-based LSTM for Controller Load Prediction in Software-Defined Networks">
   <meta name="twitter:description" content="引言Implementing load balancing for the control plane of SoftwareDefined Networking (SDN) can improve network reliability, scalability, and overall performance. However, existing load balancing strategies struggle to address potential future load imbalances,which can adversely affect network quality. Current load balancing solutions rely on real-time data collection to determine the status of a controller. However, during the time between">
 <meta name="application-name" content="DoIt">
@@ -31,14 +31,14 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
-<link rel="canonical" href="http://localhost:1313/att-lstm/" /><link rel="prev" href="http://localhost:1313/hesm/" /><link rel="next" href="http://localhost:1313/bsm-lp/" />
+<link rel="canonical" href="http://localhost:1313/att-lstm/" /><link rel="prev" href="http://localhost:1313/casm/" /><link rel="next" href="http://localhost:1313/bsm-lp/" />
 <link rel="stylesheet" href="/css/main.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">{"@context": "https://schema.org","@type": "BlogPosting",
         "headline": "Attention-based LSTM for Controller Load Prediction in Software-Defined Networks",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http://localhost:1313/att-lstm/"
-        },"genre": "posts","keywords":["负载预测","SDN","负载均衡"],"wordcount":  341 ,
+        },"genre": "posts","keywords":["负载预测","SDN","负载均衡"],"wordcount":  342 ,
         "url": "http://localhost:1313/att-lstm/","datePublished": "2023-07-19T19:24:57+06:00","dateModified": "2023-07-19T19:24:57+06:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -147,10 +147,11 @@
     <a href="#%e5%bc%95%e8%a8%80" class="header-mark" aria-label="Header mark for '引言'"></a>引言</h3><p>Implementing load balancing for the control plane of SoftwareDefined Networking (SDN) can improve network reliability, scalability, and overall performance. However, existing load balancing strategies struggle to address potential future load imbalances,which can adversely affect network quality.</p>
 <p>Current load balancing solutions rely on real-time data collection to determine the status of a controller. However, during the time between identifying a load imbalance and completing migration, the overloaded state of the controller can negatively impact the network. Accurate prediction of controller load and proactive switch migration can effectively reduce the duration of the controller’s load imbalance state, thereby improving load balancing efficiency. Controller load mainly comes from processing Packet_in messages, making it essential to accurately predict the transmission rate of these messages for each switch managed by the controller.</p>
   <p>Traditional time-series prediction models, such as Recurrent Neural Networks (RNN), can effectively process time-series data and exhibit memory and temporal dependency processing capabilities, achieving good prediction results. The Long Short-Term Memory (LSTM) model was used to predict controller load, demonstrating the feasibility of load prediction. However, the traditional LSTM model typically uses the final hidden state to predict, which can lead to the loss of valuable information contained in intermediate hidden states, especially when processing long sequences.  As the performance of controller load balancing is directly impacted by the accuracy of the model’s prediction, it is crucial to improve the prediction accuracy.
-<p>To improve the accuracy of the prediction model, we propose a new controller load prediction model based on the traditional LSTM model, called Attention-LSTM. We integrate attention mechanisms into LSTM, taking into account the hidden state of each LSTM time step, effectively improving the accuracy of the final prediction results. Our experiments demonstrate that our proposed model achieves higher prediction accuracy than existing models on the same dataset.</p></p>
+To improve the accuracy of the prediction model, we propose a new controller load prediction model based on the traditional LSTM model, called Attention-LSTM. We integrate attention mechanisms into LSTM, taking into account the hidden state of each LSTM time step, effectively improving the accuracy of the final prediction results. Our experiments demonstrate that our proposed model achieves higher prediction accuracy than existing models on the same dataset.</p>
+<p>​</p>
 </p>
 </p>
-<p><span style="font-size:22px;"><strong>链 接</strong></span> <span style="margin-left:20px; font-size:14px;"><a href="https://dl.acm.org/doi/10.1145/3600061.3603124" target="_blank" rel="noopener noreferrer">https://dl.acm.org/doi/10.1145/3600061.3603124</a></span></p>
+<p><span style="font-size:22px;"><strong>链 接</strong></span> <span style="margin-left:20px; font-size:14px;">     <a href="https://dl.acm.org/doi/10.1145/3600061.3603124" target="_blank" rel="noopener noreferrer">https://dl.acm.org/doi/10.1145/3600061.3603124</a></span></p>
 <p><span style="font-size:20px;"><strong>出版物</strong></span> <span style="font-size:14px;">     <em>2023: 7th Asia-Pacific Workshop on Networking</em>, <em><strong>APNET</strong></em> 2023</span></p>
 </div>
 
@@ -176,9 +177,9 @@
         </section>
     </div>
 
-    <div class="post-nav print:tw-hidden"><a href="/hesm/" class="prev" rel="prev" title="Highly-Efficient Switch Migration for Controller Load Balancing in Elastic Optical Inter-Datacenter Networks"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>Highly-Efficient Switch Migration for Controller Load Balancing in Elastic Optical Inter-Datacenter Networks</a>
-            <a href="/bsm-lp/" class="next" rel="next" title="BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things.">BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things.<svg class="icon"
+    <div class="post-nav print:tw-hidden"><a href="/casm/" class="prev" rel="prev" title="CASM: A Cost-Aware Switch Migration Strategy for Elastic Optical Inter-Datacenter Networks"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>CASM: A Cost-Aware Switch Migration Strategy for Elastic Optical Inter-Datacenter Networks</a>
+            <a href="/bsm-lp/" class="next" rel="next" title="BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things">BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a></div>
 </div>
 </article></div>

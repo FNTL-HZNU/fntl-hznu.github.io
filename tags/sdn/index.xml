@@ -5,7 +5,7 @@
         <description>SDN - 标签 - 未来网络技术实验室</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yongliu@hznu.edu.cn (FNTL)</managingEditor>
             <webMaster>yongliu@hznu.edu.cn (FNTL)</webMaster><lastBuildDate>Mon, 08 Jul 2024 18:26:56 &#43;0700</lastBuildDate><atom:link href="http://localhost:1313/tags/sdn/" rel="self" type="application/rss+xml" /><item>
-    <title>BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things.</title>
+    <title>BSM-LP: Bidirectional Switch Migration with Controller Load Prediction for Software-Defined Internet of Things</title>
     <link>http://localhost:1313/bsm-lp/</link>
     <pubDate>Mon, 08 Jul 2024 18:26:56 &#43;0700</pubDate><author>
         <name>FNTL</name>
@@ -19,11 +19,25 @@
     </author><guid>http://localhost:1313/att-lstm/</guid>
     <description><![CDATA[引言Implementing load balancing for the control plane of SoftwareDefined Networking (SDN) can improve network reliability, scalability, and overall performance. However, existing load balancing strategies struggle to address potential future load imbalances,which can adversely affect network quality. Current load balancing solutions rely on real-time data collection to determine the status of a controller. However, during the time between]]></description>
 </item><item>
+    <title>RSLB: Robust and Scalable Load Balancing in Software-Defined Data Center Networks</title>
+    <link>http://localhost:1313/rslb/</link>
+    <pubDate>Wed, 08 Dec 2021 19:24:57 &#43;0600</pubDate><author>
+        <name>FNTL</name>
+    </author><guid>http://localhost:1313/rslb/</guid>
+    <description><![CDATA[摘要Data center networks demand high-performance, robust, and scalable load balancing protocols. Despite progress, existing work still cannot meet these requirements well. Software defined networking (SDN) can bring considerable flexibility to the management of data center networks. In the software-defined data center network, we design, analyze, and evaluate RSLB, a robust and scalable load balancing protocol that overcomes these challenges. RSLB uses fine-grained flowcell as the]]></description>
+</item><item>
     <title>Highly-Efficient Switch Migration for Controller Load Balancing in Elastic Optical Inter-Datacenter Networks</title>
     <link>http://localhost:1313/hesm/</link>
     <pubDate>Sun, 19 Sep 2021 19:24:57 &#43;0600</pubDate><author>
         <name>FNTL</name>
     </author><guid>http://localhost:1313/hesm/</guid>
     <description><![CDATA[摘要In elastic optical inter-datacenter networks, multiple software-defined networking (SDN) controllers have been used to improve scalability and reliability. The static controller deployment faces the problem of controller load imbalance under dynamic changes in network traffic. In response to this problem, existing research works proposed to use dynamic switch migration to achieve the controller load balancing. However, the efficiency of the existing switch migration is low, because the]]></description>
+</item><item>
+    <title>Multi-Controller Placement Based on Two-Sided Matching in Inter-Datacenter Elastic Optical Networks</title>
+    <link>http://localhost:1313/tsmm-icc/</link>
+    <pubDate>Wed, 20 May 2020 19:24:57 &#43;0600</pubDate><author>
+        <name>FNTL</name>
+    </author><guid>http://localhost:1313/tsmm-icc/</guid>
+    <description><![CDATA[摘要Software defined networking (SDN) can bring considerable flexibility to the management of inter-DC elastic optical networks. However, in the large-scale network, unreasonable placement of multiple SDN controllers may cause the unbalanced distribution of controller loads. To address this issue, we propose a two-sided matching method (TSMM) and design its corresponding algorithm to implement the optimal multicontroller placement. We solve the controller]]></description>
 </item></channel>
 </rss>

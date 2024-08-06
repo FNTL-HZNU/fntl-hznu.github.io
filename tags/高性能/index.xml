@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>高性能 - 标签 - 未来网络技术实验室</title>
+        <link>http://localhost:1313/tags/%E9%AB%98%E6%80%A7%E8%83%BD/</link>
+        <description>高性能 - 标签 - 未来网络技术实验室</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>yongliu@hznu.edu.cn (FNTL)</managingEditor>
+            <webMaster>yongliu@hznu.edu.cn (FNTL)</webMaster><lastBuildDate>Mon, 08 Mar 2021 19:24:57 &#43;0600</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%AB%98%E6%80%A7%E8%83%BD/" rel="self" type="application/rss+xml" /><item>
+    <title>HPSTOS: High-Performance and Scalable Traffic Optimization Strategy for Mixed Flows in Data Center Networks</title>
+    <link>http://localhost:1313/hpstos/</link>
+    <pubDate>Mon, 08 Mar 2021 19:24:57 &#43;0600</pubDate><author>
+        <name>FNTL</name>
+    </author><guid>http://localhost:1313/hpstos/</guid>
+    <description><![CDATA[摘要The Software-Defined Internet of Things (SD-IoT) utilizes the centralized control and programmability of SoftwareDefined Networking (SDN) to enhance network performance optimization and efficient resource utilization in IoT. As the network scale expands, the multiple-controller architecture becomes crucial for ensuring reliability and scalability in SD-IoT. However, the dynamic changes in traffic patterns often lead to imbalanced loads among controllers. Existing solutions primarily focus on switch migration schemes,]]></description>
+</item></channel>
+</rss>

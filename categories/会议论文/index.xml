@@ -11,5 +11,12 @@
         <name>FNTL</name>
     </author><guid>http://localhost:1313/att-lstm/</guid>
     <description><![CDATA[引言Implementing load balancing for the control plane of SoftwareDefined Networking (SDN) can improve network reliability, scalability, and overall performance. However, existing load balancing strategies struggle to address potential future load imbalances,which can adversely affect network quality. Current load balancing solutions rely on real-time data collection to determine the status of a controller. However, during the time between]]></description>
+</item><item>
+    <title>Multi-Controller Placement Based on Two-Sided Matching in Inter-Datacenter Elastic Optical Networks</title>
+    <link>http://localhost:1313/tsmm-icc/</link>
+    <pubDate>Wed, 20 May 2020 19:24:57 &#43;0600</pubDate><author>
+        <name>FNTL</name>
+    </author><guid>http://localhost:1313/tsmm-icc/</guid>
+    <description><![CDATA[摘要Software defined networking (SDN) can bring considerable flexibility to the management of inter-DC elastic optical networks. However, in the large-scale network, unreasonable placement of multiple SDN controllers may cause the unbalanced distribution of controller loads. To address this issue, we propose a two-sided matching method (TSMM) and design its corresponding algorithm to implement the optimal multicontroller placement. We solve the controller]]></description>
 </item></channel>
 </rss>
